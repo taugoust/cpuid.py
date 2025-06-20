@@ -1,0 +1,18 @@
+[project]
+name = "cpuid"
+version = "1.0.0"
+requires-python = "==3.12.*"
+description = "CPUID interface for Python via code injection"
+readme = {file = "README.md", content-type = "text/markdown"}
+authors = [
+	{name = "Anders Host", email = "anders@foob.dk"},
+	{name = "Theofilos Augoustis", email = "theofilos.augoustis@gmail.com"},
+]
+dependencies = [
+	"setuptools"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
